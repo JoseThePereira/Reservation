@@ -1,3 +1,9 @@
+@-webkit-keyframes greenPulse {
+    from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+    50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+    to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+  }
+
 #myVideo{
     position: fixed;
     right: 0;
@@ -5,10 +11,60 @@
     min-width: 100%; 
     min-height: 100%;
 }
+i{
+  
+}
 
 .jumbotron{
+    align-content: center;
+    text-align: center;
     position: fixed;
-    
+    background-color: #202833;
     margin-top: 100px;
     position:absolute;
+    color: #66fcf1;
+    border-radius: 50px;  
+    margin: 50px;
+}
+
+.jumbotron-billboard{
+    margin-bottom: 0px;
+    opacity: 1;
+    color: #fff;
+    background: #000 url("table.jpeg") top center no-repeat;
+    width: 90%;
+    height: 70%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    align-content: center;
+}
+
+h1{
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Shrikhand', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #202833;
+    border-color: #46a29f;
+    border-radius: 25px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #202833;
+    border-color: #46a29f;
+    border-radius: 25px;
 }
